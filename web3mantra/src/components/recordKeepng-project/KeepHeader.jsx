@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import "./keepheader.css";
 const KeepHeader = () => {
   return (
     <div className='keepheader'>
-        <h2>Record Keeping Project</h2>
+        <h1>Record Keeping Project</h1>
     </div>
   )
 }

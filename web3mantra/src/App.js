@@ -1,5 +1,7 @@
 import "./App.css";
-import Counter from "./components/counterApp/Counter";
+import KeepHeader from "./components/recordKeepng-project/KeepHeader";
+import RecordKeep from "./components/recordKeepng-project/RecordKeep";
+//import Counter from "./components/counterApp/Counter";
 //import Header from "./components/moiveList/Header";
 //import Moive from "./components/moiveList/Moive";
 //import moives from "./components/moiveList/moives.json";
@@ -30,8 +32,11 @@ const App = () => {
       })} */}
 
 
-      <Counter/>
-      
+      {/* <Counter/> */}
+
+        <KeepHeader/>
+        <RecordKeep/>
+
     </div>
   );
 };

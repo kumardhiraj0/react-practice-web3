@@ -1,0 +1,17 @@
+.App{
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0;
+}
+
+.keepheader{
+    background-color: #043b5c;
+    padding: 14px;
+    color: white;
+    width: 100%;
+}
