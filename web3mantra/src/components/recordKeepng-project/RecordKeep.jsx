@@ -24,10 +24,18 @@ const RecordKeep = () => {
         })
     })
   }
+//by pressing enter we can also add data
+  const handlePress = (event)=>{
+    if(event.key === "Enter"){
+      addData();
+    }
+
+  }
   return (
     <div className="main">
       <Stack spacing={2} direction="row">
         <TextField
+          onKeyPress={(e)=> handlePress(e)}
           id="outlined-basic"
           value={name}
           onChange={(event) => setName(event.target.value)}
@@ -35,6 +43,7 @@ const RecordKeep = () => {
           variant="outlined"
         />
         <TextField
+          onKeyPress={(e)=> handlePress(e)}
           id="outlined-basic"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
