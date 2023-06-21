@@ -1,10 +1,18 @@
 import "./App.css";
-import CartProvider from "./components/useContext/practice-problem/CartProvider";
+import Counter from "./components/useRef-Hook/CounterApp";
+import Focus from "./components/useRef-Hook/Focus";
+import CountRender from "./components/useRef-Hook/Count-Render";
+
+import PrevState from "./components/useRef-Hook/PrevState";
+
 const App = () => {
 
   return (
     <>
-    <CartProvider/>
+     <CountRender/>
+    <PrevState/>
+     <Counter/>
+    <Focus/>
     </>
   )
 };
